@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Page</title>
+    <!-- Font Link -->
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Contact Form -->
+    <div class="container">
+        <h1>Contact Form</h1>
+        <form action="" id="contactForm">
+            <h5>👦 Name:</h5>
+            <div class="alert">Your form has been submitted</div>
+            <input type="text" id="name" placeholder="Type your Name" required autofocus>
+
+            <h5>🏛 Company:</h5>
+            <input type="text" id="company" placeholder="Type your Company Name">
+
+            <h5>📧 Email:</h5>
+            <input type="email" id="email" placeholder="Type your Email" required>
+
+            <h5>📱 Phone Number:</h5>
+            <input type="tel" id="phone" placeholder="Type your Phone Number" required>
+
+            <h5>💬 Message:</h5>
+            <textarea name="" id="message" placeholder="Enter your message here......!"></textarea>
+
+            <button type="submit" id="submitButton">Submit</button>
+        </form>
+    </div>
+
+    <!-- JS files for Firebase -->
+    <script src="https://www.gstatic.com/firebasejs/7.18.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.18.0/firebase-database.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.18.0/firebase-analytics.js"></script>
+    <script src="main.js"></script>
+
+</body>
+
+</html>

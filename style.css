@@ -1,0 +1,66 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Noto Sans JP", sans-serif;
+}
+.container {
+  width: 80%;
+  height: 1000px;
+  background-color: rgb(230, 225, 184);
+  display: block;
+  margin: 0 auto;
+  border-radius: 10px;
+}
+h1 {
+  text-align: center;
+  color: indianred;
+}
+h5 {
+  /* display: inline; */
+  font-size: 20px;
+  padding-left: 10px;
+}
+#name,
+#company,
+#email,
+#phone {
+  height: 50px;
+  width: 1000px;
+  padding: 5px;
+  margin-left: 15px;
+  border-radius: 5px;
+  border-style: none;
+}
+#message {
+  height: 100px;
+  width: 1000px;
+  padding: 5px;
+  margin-left: 15px;
+  border-radius: 5px;
+  border-style: none;
+}
+#submitButton {
+  height: 50px;
+  width: 1010px;
+  background-color: mediumturquoise;
+  text-align: center;
+  padding: 5px;
+  margin-left: 15px;
+  border-radius: 5px;
+  border-style: none;
+  cursor: pointer;
+  font-size: 20px;
+  color: red;
+}
+#submitButton:hover {
+  background-color: mediumseagreen;
+  color: #fff;
+}
+.alert {
+  color: #fff;
+  background: #79c879;
+  text-align: center;
+  padding: 20px;
+  margin-bottom: 10px;
+  display: none;
+}
